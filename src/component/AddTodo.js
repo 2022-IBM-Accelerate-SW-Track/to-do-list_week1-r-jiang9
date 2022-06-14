@@ -42,10 +42,8 @@ class AddTodo extends Component {
           <TextField
         label="Add New Item"
         variant="outlined"
-        //onChange={call handleChange here}
         onChange={this.handleChange}
-        //value={set the content state here}
-        value={this.setState.content}
+        value={this.state.content}
          />
       <Button
         style={{ marginLeft: "10px" }}
